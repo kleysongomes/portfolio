@@ -18,9 +18,14 @@ body {
     text-decoration: none;
 }
 
+.navbar-img {
+    height: 30px;
+}
+
 .hero-background {
     overflow: hidden;
     position: relative;
+    height: 380px;
     background: -webkit-linear-gradient(117deg, rgb(0, 0, 0), rgb(50, 49, 49));
     background: linear-gradient(117deg, rgb(0, 0, 0), rgb(50, 49, 49));
     background: -webkit-radial-gradient(rgb(50, 49, 49), rgb(50, 49, 49));
@@ -520,5 +525,5 @@ ul {
 
 .strips {
     position: absolute;
-    max-width: 1280px;
+    max-width: 800px;
 }
